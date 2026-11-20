@@ -12,3 +12,5 @@ Private-data running dashboard (React + Vite + Supabase Auth), hosted as a PWA o
 The app uses read-only public.dashboard_activities and public.dashboard_training_notes views with security_invoker and RLS on the underlying running schema. A login alone is not sufficient: the UUID must be allowlisted.
 
 Local development: copy .env.example to .env.local, supply public credentials, run npm install and npm run dev.
+
+Deployment triggered after repository variables were configured.
